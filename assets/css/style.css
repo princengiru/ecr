@@ -366,7 +366,7 @@ li i{
 .back-to-top {
   position: fixed;
   display: none;
-  background: #0F2043;
+  background: #835E12;
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
@@ -2424,9 +2424,10 @@ preview-2
   bottom: -80px;
   left: 0px;
   right: 0px;
-  background: rgba(255, 255, 255, 0.9);
+  background:#0F2043;
+  background: rgba(15, 32, 67, 0.9);
+
   padding: 15px 0;
-  border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -2434,7 +2435,7 @@ preview-2
   font-weight: 700;
   margin-bottom: 10px;
   font-size: 16px;
-  color: #01036f;
+  color: #ffffff;
   position: relative;
   padding-bottom: 10px;
 }
@@ -2445,7 +2446,7 @@ preview-2
   display: block;
   width: 50px;
   height: 1px;
-  background: #0d12fc;
+  background: #D8A031;
   bottom: 0;
   left: calc(50% - 25px);
 }
@@ -2454,7 +2455,7 @@ preview-2
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #01036f;
+  color: #ffffff;
 }
 
 .team .member .social {
@@ -2463,11 +2464,11 @@ preview-2
 
 .team .member .social a {
   transition: color 0.3s;
-  color: #01036f;
+  color: #D8A031;
 }
 
 .team .member .social a:hover {
-  color: #1acc8d;
+  color: #f1f1f4;
 }
 
 .team .member .social i {
@@ -3592,7 +3593,7 @@ preview-2
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/4.png") no-repeat fixed center top/cover;
+  background: rgba(0, 0, 0, 0) url("assets/img/testimonials.jpg") no-repeat fixed center top/cover;
   height: auto;
   width: 100%;
 }
@@ -4845,7 +4846,7 @@ span.email-notes {
     position: absolute;
     left: 0;
     top: 80px;
-    background-color: #3e1e4d;
+    background-color: #0a1834;
     width: 100%;
     text-align: right;
     padding: 7px 0;
