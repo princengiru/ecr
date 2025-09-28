@@ -430,11 +430,11 @@ div#preloader {
 }
 
 .area-padding {
-  padding: 70px 0px 80px;
+  padding: 50px 0px 0px;
 }
 
 .area-padding-2 {
-  padding: 70px 0px 50px;
+  padding: 50px 0px 50px;
 }
 
 .padding-2 {
@@ -4574,7 +4574,7 @@ span.email-notes {
 
 @media (max-width: 992px) {
   #hero {
-    height: 100vh;
+    height: 90vh;
   }
   #hero .carousel-container {
     text-align: center;
@@ -4591,6 +4591,18 @@ span.email-notes {
 @media (min-width: 1024px) {
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero {
+    height: 70vh;
+  }
+}
+
+@media (max-width: 480px) {
+  #hero {
+    height: 65vh;
   }
 }
 
